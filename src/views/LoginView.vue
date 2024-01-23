@@ -16,16 +16,9 @@
         username:"",
         password:""
     }
-  },
-  methods{
-    login(){
-        
-    },
-    performLogin(){
-
-    }
   }
- }
+  }
+ 
 </script>
 <style scoped>
 
