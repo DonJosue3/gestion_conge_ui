@@ -19,7 +19,11 @@
     <script>
     
     </script>
-    <style scoped>
+    <style>
+    body{
+        padding: 0px;
+    }
+
    *{
     box-sizing: border-box;
 }
