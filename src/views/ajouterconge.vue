@@ -1,6 +1,6 @@
 <template>
 <body>
-    <div class="card">
+    <div class="carda">
         <div class="tete">
           <div class="tete1">
           <h3>Ajouter congé</h3>
@@ -11,17 +11,17 @@
           </svg>
         </div>
         </div>
-        <div class="id"><p class="id1">Id</p></div>
-        <input class="input1" type="text"/>
-        <div class="nom"><p class="nom1">Nom</p></div>
-        <input class="input2" type="text"/>
+        <div class="ida"><p class="id1">Id</p></div>
+        <input class="inputa" type="text"/>
+        <div class="nom"><p class="nomav">Nom</p></div>
+        <input class="inputb" type="text"/>
         <div class="prenom"><p class="prenom1">Prenom</p></div>
-        <input class="input3" type="text"/>
+        <input class="inputc" type="text"/>
         <div class="age"><p class="age1"></p>Age</div>
-        <input class="input4" type="text"/>
-        <div class="genre"><p class="genre1">Genre</p></div>
-        <input class="input5" type="text"/>
-        <button type="submit"><p>Ajouter</p></button>
+        <input class="inputd" type="text"/>
+        <div class="genrea"><p class="genreb">Genre</p></div>
+        <input class="inputf" type="text"/>
+        <button class="ajoute" type="submit"><p>Ajouter</p></button>
     </div>
 </body>
 </template>
@@ -38,8 +38,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.card{
-    height: 550px;
+.carda{
+    height: 530px;
     width: 560px;
     background-color: white;
     border: 1px solid black;
@@ -67,26 +67,39 @@ body {
     width: 559px;
     background-color: rgb(27, 27, 77);
 }
-.id{
+.ida{
+  margin-top: 10px;
     padding-left: 25px;
     font-family: sans-serif;
     
 }
-.id1,.nom1,.prenom1,.age1,.genre1{
+.id1,.nomav{
     margin-bottom: 0px;
 }
-.input1,.input2,.input3,.input4,.input5{
+.prenom1,.age1,.genreb{
+        margin-bottom: 0px;
+}
+.inputa,.inputb{
     margin-top: 0px;
     margin-left: 25px;
     width: 500px;
     height: 40px;
+    
 }
-.nom,.prenom,.age,.genre{
+.inputc,.inputd,.inputf{
+    margin-top: 0px;
+    margin-left: 25px;
+    width: 500px;
+    height: 40px;
+    
+}
+.nom,.prenom,.age,.genrea{
+  margin-top: 10px;
     padding-left: 25px;
     font-family: sans-serif;
 }
 
-button{
+.ajoute{
     margin-top: 20px;
     margin-left:25px ;
     height: 40px;
@@ -94,5 +107,10 @@ button{
     background-color: blue;
     color: white;
     border: hidden;
+    border-radius: 4px;
+}
+input{
+  border-radius: 4px;
+  border: 1px solid grey;
 }
 </style>
